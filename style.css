@@ -1,0 +1,26 @@
+@charset "UTF-8";
+button{ padding: 10px;
+    margin: 10px;
+    background-color: blueviolet;
+}
+
+body{
+    text-align: center;
+    background-color: rgb(188, 117, 255);
+}
+p{  font-size: 17px;
+    font-weight: bold;
+    display: none;
+    color: white;
+}
+
+div:hover>p{
+    display: block;
+}
+button{
+    color: white;
+    font-size: 17px;
+}
+button:hover{
+    background-color: rgb(176, 92, 255);
+}
